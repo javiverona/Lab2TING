@@ -7,6 +7,17 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
+//
+var hotelesRouter = require('./routes/hotelesdestinos');
+/**var vuelosRouter = require('./routes/vueloshotel');
+var chekingRouter = require('./routes/checking');
+var gestionRouter = require('./routes/gestionar');
+var reservaRouter = require('./routes/reserva');
+var contactRouter = require('./routes/contactar');
+var micuentaRouter = require('./routes/micuenta');/** */
+
+//
+
 var app = express();
 
 // view engine setup
@@ -21,6 +32,17 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+
+//
+app.use('/hotelesdestinos', hotelesRouter);
+/**app.use('/vueloshotel', vuelosRouter);
+app.use('/checking', chekingRouter);
+app.use('/gestionar', gestionRouter);
+app.use('/reserva', reservaRouter);
+app.use('/contactar', contactRouter);
+app.use('/micuenta', micuentaRouter);/** */
+
+//
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
