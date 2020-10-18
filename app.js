@@ -8,6 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 //
+var destinosRouter = require('./routes/destinos')
 var hotelesRouter = require('./routes/hotelesdestinos');
 /**var vuelosRouter = require('./routes/vueloshotel');
 var chekingRouter = require('./routes/checking');
@@ -34,6 +35,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
 //
+app.use('/destinos', destinosRouter);
 app.use('/hotelesdestinos', hotelesRouter);
 /**app.use('/vueloshotel', vuelosRouter);
 app.use('/checking', chekingRouter);
