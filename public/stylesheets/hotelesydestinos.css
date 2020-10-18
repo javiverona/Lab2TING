@@ -1,0 +1,54 @@
+body {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 15px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background: #E2FBFB;
+
+}
+
+.welcome {
+    color: black;
+    text-align: left;
+    background: url() 0 0 no-repeat;
+    height:180px;
+    border-style: hidden;
+    border: 2px solid white ;
+    opacity:0.9;
+    box-shadow: 0 0 5px 5px white;
+    border-radius: 10px;
+    padding-left:50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:48px;
+   }
+   .ourHeader{
+    background: url();
+    height: 5%;
+    margin-bottom: 3%;
+    border-style: solid;
+    border-top: black;
+    border-right: black;
+    border-left: black;
+    padding-bottom: 1px;
+    text-align: center;
+  
+  }
+
+  .headerLink{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+  
+  }
+  
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 600px;
+    padding: 2%;
+  }
