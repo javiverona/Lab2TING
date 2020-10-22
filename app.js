@@ -10,6 +10,10 @@ var usersRouter = require('./routes/users');
 //
 var destinosRouter = require('./routes/destinos')
 var hotelesRouter = require('./routes/hotelesdestinos');
+var hoteldescripRouter = require('./routes/hoteldescrip');
+var aboutRouter = require('./routes/about');
+var opinionRouter = require('./routes/opinion');
+
 /**var vuelosRouter = require('./routes/vueloshotel');
 var chekingRouter = require('./routes/checking');
 var gestionRouter = require('./routes/gestionar');
@@ -24,7 +28,7 @@ var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
-
+ 
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -37,6 +41,10 @@ app.use('/users', usersRouter);
 //
 app.use('/destinos', destinosRouter);
 app.use('/hotelesdestinos', hotelesRouter);
+app.use('/about', aboutRouter);
+app.use('/opinion', opinionRouter);
+app.use('/hoteldescrip', hoteldescripRouter);
+
 /**app.use('/vueloshotel', vuelosRouter);
 app.use('/checking', chekingRouter);
 app.use('/gestionar', gestionRouter);
