@@ -1,0 +1,102 @@
+body {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-top: 15px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #E2FBFB;
+  
+
+}
+
+ 
+.welcome {
+ color: black;
+ text-align: left;
+ background: url(https://www.hotelescenter.es/wp-content/blogs.dir/1601/files/home/New-Project.jpg) 0 0 no-repeat;
+ height:180px;
+ border-style: hidden;
+ border: 2px solid white ;
+ opacity:0.9;
+ box-shadow: 0 0 5px 5px white;
+ border-radius: 10px;
+ padding-left:50px;
+ margin-left: auto;
+ margin-right: auto;
+ padding-top:48px;
+}
+.welcomeText{
+  color: white
+}
+
+.inputOne{
+  width: 10%;
+  font-size: 20px;
+}
+
+.ourHeader{
+  background: url(https://i.pinimg.com/originals/c9/4a/5b/c94a5b52341d28e3c7b4ae866a57ca3c.jpg);
+  height: 5%;
+  margin-bottom: 3%;
+  border-style: solid;
+  border-top: black;
+  border-right: black;
+  border-left: black;
+  padding-bottom: 1px;
+  text-align: center;
+
+}
+
+.ourForm{
+  font-size: 20px;
+  
+}
+
+input[type=button], input[type=submit]{
+  background-color: lightblue;
+  font-size: large;
+  border-radius: 6px;
+ 
+}
+ 
+
+#hotelname{
+  margin-top: 5px;
+  border-radius: 6px;
+  background-color: white;
+  font-size: large;
+  margin-bottom: 15px;
+
+
+}
+
+.headerLink{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  padding: 2%;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
